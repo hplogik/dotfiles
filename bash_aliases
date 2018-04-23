@@ -37,3 +37,6 @@ alias restart_clipboard='pkill -f VBoxClient; VBoxClient --clipboard'
 
 #Removes .orig files left over from mergetool after resolving conflicts
 alias clean_merge='find -name *.orig -exec rm {} \;'
+alias fe="cd /var/logikcull/apps/frontend"
+alias be="cd /var/logikcull/apps/backend"
+alias js="/var/logikcull/apps/frontend/app/assets/javascripts/"
