@@ -61,6 +61,7 @@ map <C-d> :execute 'NERDTreeToggle ' . getcwd()<CR>
 set guioptions-=T
 set ofu=syntaxcomplete#Complete
 let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
+imap jj <Esc>
 
 au BufNewFile,BufRead *.ejs set filetype=html
 
